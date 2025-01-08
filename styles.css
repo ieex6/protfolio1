@@ -1,0 +1,163 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    color: #333333;
+    line-height: 1.6;
+  }
+  
+  /* الحاوية */
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* صورة شخصية */
+  .personal-img img {
+    border-radius: 50%;
+    border: 5px solid #d4af37;
+    max-width: 150px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  /* النصوص */
+  h3 {
+    color: #002b5c;
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+    padding: 0 15px;
+  }
+  
+  /* المهارات */
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+  }
+  .skill-item {
+    background: #002b5c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  
+  /* الروابط */
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .links a {
+    text-decoration: none;
+    color: #d4af37;
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+  }
+  .links a:hover {
+    transform: scale(1.2);
+  }
+  
+  /* الفوتر */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background: #f5f5f5;
+    color: #f5f5f5;
+    font-weight: bold;
+  }
+  /* تصميم قسم الاتصال */
+.contact {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    color: #d4af37;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .contact-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .contact-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-item i {
+    font-size: 2rem;
+    color: #d4af37;
+  }
+  
+  .contact-item p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .contact-item a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #d4af37;
+    transition: color 0.3s;
+  }
+  
+  .contact-item a:hover {
+    color: #002b5c;
+  }
+  /* الخلفية المتدرجة المتحركة */
+body {
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    background: linear-gradient(-45deg, #d4af37, #c3a844, #f5f5f5, #333333);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* حركة التدرج */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
